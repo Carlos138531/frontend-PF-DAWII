@@ -12,7 +12,7 @@ import pe.edu.Frontend.ProyectoFrontend.dto.LoginResponseDTO;
 import java.util.List;
 
 
-@FeignClient(name = "autenticacion-client", url = "https://backend-proyecto-dawii-master.azurewebsites.net/autenticar", configuration = FeignClientConfig.class)
+@FeignClient(name = "autenticacion-client", url = "https://pf-dawii4-bk.azurewebsites.net/autenticar", configuration = FeignClientConfig.class)
 public interface AutenticacionClient {
 
     @PostMapping("/login")
